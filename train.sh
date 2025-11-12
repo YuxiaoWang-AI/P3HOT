@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 python train.py --gpus 0,1,2,3 --cfg config/hot-resnet50dilated-c1.yaml
